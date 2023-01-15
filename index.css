@@ -1,0 +1,64 @@
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #240f52;
+        font-family: sans-serif;
+    }
+    
+    .outer {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%)0;
+    }
+    
+    @keyframes rotate {
+        to {
+            transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+        }
+    }
+    
+    .iner {
+        position: absolute;
+        width: 275px;
+        height: 275px;
+        background: #240f52;
+        text-align: center;
+        line-height: 275px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    
+    .iner span {
+        font-size: 80px;
+        font-weight: 800;
+        background: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%)0;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-size: 300%;
+    }
+    
+    .loading {
+        animation: 2s infinite ease rotate;
+        -webkit-animation: 2s infinite ease rotate;
+        -webkit-animation: 2s infinite ease rotate;
+    }
+    /* \ font-size: 60px;
+background: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%)0;
+font-weight: 800;
+font-weight: 800;
+color: transparent;
+-webkit-background-clip: text; */
